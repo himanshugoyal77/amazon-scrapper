@@ -2,7 +2,7 @@ import axios from "axios";
 import express from "express";
 const app = express();
 
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 const apiKey = "3ee6f556892fd262728a6cc659bcb5a3"
 const baseUrl = `http://api.scraperapi.com?api_key=${apiKey}&autoparse=true`
 
