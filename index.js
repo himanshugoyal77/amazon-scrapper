@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 
 const PORT = process.env.PORT || 8000;
-const apiKey = "3ee6f556892fd262728a6cc659bcb5a3"
+const apiKey = "Your API KEY HERE"
 const baseUrl = `http://api.scraperapi.com?api_key=${apiKey}&autoparse=true`
 
  app.use(express.json());
